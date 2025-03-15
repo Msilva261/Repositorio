@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pizzaria Proz</title>
+    <script type="text/javascript" src="js/codigo.js"></script>
+</head>
+<body>
+    <header>
+        <div class="interface">  
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo1.jpg" alt="Logo da Pizzaria Proz">
+                </a>
+            </div>
+            <div>
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="cadastro.html">Registro/Cadastro</a></li>
+                        <li><a href="cardapio.html">Cardápio</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="titulo">Preencha os Dados Para Continuar</h1>
+
+    <form>
+        <ul>
+            <li>
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome Completo">
+            </li>
+            <li>
+                <label for="numero">DDD + Número</label>
+                <input type="tel" id="numero" name="numero" placeholder="DDD + Número">
+            </li>
+            <li>
+                <label for="mensagem">Mensagem</label>
+                <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </li>
+        </ul>
+
+        <div class="botao-container">
+                  <input type="submit" value="Enviar" name="Enviar" />
+
+        </div>
+    </form>
+
+</body>
+</html>
